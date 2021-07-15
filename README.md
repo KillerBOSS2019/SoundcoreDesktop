@@ -19,6 +19,12 @@ ive made a little script that you can use to control your Anker Soundcore life Q
 ANC, Transport, Indoor, and Outdoor and Even it can control EQ. Sadly I wasnt able to figure out how the custom EQ thing work i tired using same method
 it just creates a new Custom presets which i dont want also the Script requires Python 3.9.6 because any older then that does not have `AF_Bluetooth` and RFCOMM Protocol there are also some Libraries for Bluetooth such as PyBluez but that didnt work too well for me so i decided to use Python buildin Bluetooth which is Sockets
 
+## Devices Supported
+I currently only own the `Anker Soundcore Life Q30` which has support for the Mobile app
+there is a chance that this will work with Anker Soundcore Life Q35 but I dont have the device to test with
+if you willing to test it and if it works please let me know!
+
+- Anker Soundcore Life Q30
 
 ## Bugs
 If theres are any bugs, Issues or if you need help feel free use Issue tab
