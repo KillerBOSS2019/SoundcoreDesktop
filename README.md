@@ -1,30 +1,35 @@
-## Overview
-this is unofficial Anker Soundcore Life Q Headphone api
+## Info
+This is UNOFFICIAL Anker Soundcore Life Headphone api. I am Not partner with Soundcore in anyway
 
-
-## Process of controlling Soundcore life headphones
-I used Oneplus 7T which it had buildin OnePlus Logkit by opening phone app and dial `*#800#`
-and let it capture whatever the Anker soundcore app was sending to the Headphone once this is done
-I Disable the Log and disconnect Headphone and go on my PC connect to the phone via USB to get the log
-which for Oneplus 7T one is located at `This PC\HD1907\Internal shared storage\Android\data\oem_log\btsnoop`
-and i used another software called [WireShark](https://www.wireshark.org/) and read those data
-Notes those data for Ambient Sound length is 28 and the name starts with `Fantasia` channel(port) 12
-for EQs they are bit different the length is 34 and Protocol is `SPP` here are the example what it looks like
-I hope this helps you to control your type of Headphone such as Sony and other brands of Bluetooth headphone
-![image](https://user-images.githubusercontent.com/55416314/125717315-00466cf3-78d9-4141-987e-96d4af34914d.png)
-
-
-## the Script
-ive made a little script that you can use to control your Anker Soundcore life Q headphone it can change your headphone Modes to Transparency, Normal,
-ANC, Transport, Indoor, and Outdoor and Even it can control EQ. Sadly I wasnt able to figure out how the custom EQ thing work i tired using same method
-it just creates a new Custom presets which i dont want also the Script requires Python 3.9.6 because any older then that does not have `AF_Bluetooth` and RFCOMM Protocol there are also some Libraries for Bluetooth such as PyBluez but that didnt work too well for me so i decided to use Python buildin Bluetooth which is Sockets
 
 ## Devices Supported
-I currently only own the `Anker Soundcore Life Q30` which has support for the Mobile app
-there is a chance that this will work with Anker Soundcore Life Q35 but I dont have the device to test with
-if you willing to test it and if it works please let me know!
-
+"Anker Soundcore Life Q30 was the only device i own so i can only test that one BUT Other device such as Q35 should work"
 - Anker Soundcore Life Q30
+
+## SoundcoreDesktop
+I've made a SoundcoreDesktop app here is what it looks like
+Inorder to use this you need to download the `SoundcoreDesktop` folder once it's done,
+You will need to get your Device MacAddress which you can find them in the Bluetooth setting
+after that is done you will need to open the main.py and click on settings button it should open
+a new Window It should have a input box that box you need to insert your address you found and click Submit.
+Now you should be able to control your Device on your desktop!
+
+Also The images from the GUI Are from taken from Soundcore App itself (APK)
+
+Notes if the Soundcore Mobile app is open and connected to the Headphone then the desktop will NOT Work
+the Soundcore Device seems only support 1 app controlled at a time so just exit out the Mobile app and this
+should work. Also This SoundcoreDesktop app is not 100% complete, If you would like to help out this project
+feel free make a PR Thanks.
+
+
+![image](https://user-images.githubusercontent.com/55416314/126011831-b77996ae-1cb2-49b3-8cec-a9e26c19a4d4.png)
+![image](https://user-images.githubusercontent.com/55416314/126011862-49f62487-d899-449f-9fc9-383d0d700d7c.png)
+![image](https://user-images.githubusercontent.com/55416314/126011892-dc50b16c-1f12-4722-8c99-f7e0a35cd49a.png)
+
+## API
+The API allows you to control your Device EQ (Only Premade EQs in the app Custom EQ isnt support right at this moment), Modes such as ANC(Indoor), ANC(Outdoor), ANC(Transport), Transparecy, and Normal.
+
+
 
 ## Bugs
 If theres are any bugs, Issues or if you need help feel free use Issue tab
