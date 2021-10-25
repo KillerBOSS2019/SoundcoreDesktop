@@ -169,8 +169,8 @@ def settings():
     submitButton = tkinter.Button(settingWindow, command=submit, text="Submit")
     submitButton.pack()
 
-with open("settings.txt", "rb") as setting:
-    deviceAddress = setting.read().decode("utf-8")
+with open("settings.txt", "r") as setting:
+    deviceAddress = setting.read().strip()
 
 transImage = tkinter.PhotoImage(file="Images//Ambient Sound//a3029_img_trans.png")
 transImage = transImage.subsample(3,3)
