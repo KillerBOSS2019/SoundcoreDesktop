@@ -26,8 +26,6 @@ The Soundcore Devices can only support **one** application controlling it at a t
 
 The images inside of the GUI come from the official Soundcore App for Android. *They are copyrighted by Soundcore, and I do not recommend using them in your own projects.*
 
-*This application is not completed. Any help, especially an Issue report or a Pull Request, will be very much appreciated. Thank you.*
-
 ## Bug Reports / Contributions / Suggestions
 
-You can report bugs or suggest features for the API by making an Issue, or you can contribute to the project by forking it and then sending a Pull Request.
+You can report bugs or suggest features for both the API and the application by making an Issue, or you can contribute to the project by forking it and then sending a Pull Request. Any help will be very much appreciated. Thank you !
