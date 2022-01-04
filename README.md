@@ -1,3 +1,5 @@
+# SoundcoreLifeAPI
+
 ## Disclaimer
 This is an **unofficial** API for the Anker SoundCore Life Headphones. I am not partnered with Soundcore or Anker in any way.
 
@@ -7,7 +9,39 @@ The Anker Soundcore Life Q30 is the only device I currently own, making me only 
 ## The Soundcore Life API
 This API allows you to control your device's :
 - Equalization Settings (Only Premade Equalizers are currently supported.)
-- Noise Cancellation Mode : Active Noise Cancellation (Transport, Indoors and Outdoors), Transparency and Normal.
+- Noise Cancellation Mode : Active Noise Cancellation (Transport, Indoor and Outdoor), Transparency and Normal.
+
+### Usage
+```python AnkerSoundcoreAPI.py -EQPresets "SoundCore Signature" 00:00:00:00:00:00```
+
+```python AnkerSoundcoreAPI.py -AmbientSound "Transparency" 00:00:00:00:00:00```
+
+Available EQPresets and AmbientSound settings :
+
+| EQPresets | AmbientSound |
+| ---- | ---- |
+| SoundCore Signature | Transparency |
+| Acoustic | Normal |
+| Base Booster | ANC |
+| Base Reducer | Transport |
+| Classical | Indoor |
+| Podcast | Outdoor |
+| Dance |
+| Deep |
+| Electronic |
+| Flat |
+| Hip-Hop |
+| Jazz |
+| Latin |
+| Lounge |
+| Piano |
+| Pop |
+| R&B |
+| Rock |
+| Small Speaker(s) |
+| Spoken Word |
+| Treble Booster |
+| Treble Reducer |
 
 ## The SoundcoreDesktop Application
 An example SoundcoreDesktop application is also bundled with the standalone API in the `SoundcoreDesktop` folder.
