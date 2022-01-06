@@ -9,6 +9,7 @@ The Anker Soundcore Life Q30 is the only device I currently own, making me only 
 ## Requirements
 - Python 3 (both the API and the application)
 - Tkinter (just the application)
+
 The application has been confirmed to work at least under Windows and Linux (Xorg/X11 only). MacOS *should* also work.
 
 ## The Soundcore Life API
