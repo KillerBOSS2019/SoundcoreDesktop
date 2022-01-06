@@ -6,6 +6,11 @@ This is an **unofficial** API for the Anker SoundCore Life Headphones. I am not 
 ## Supported Devices
 The Anker Soundcore Life Q30 is the only device I currently own, making me only able to test this one. However, other devices such as the Q35 should still work properly despite this. If not, feel free to report an Issue or send a Pull Request.
 
+## Requirements
+- Python 3 (both the API and the application)
+- Tkinter (just the application)
+The application has been confirmed to work at least under Windows and Linux (Xorg/X11 only). MacOS *should* also work.
+
 ## The Soundcore Life API
 This API allows you to control your device's :
 - Equalization Settings (Only Premade Equalizers are currently supported.)
