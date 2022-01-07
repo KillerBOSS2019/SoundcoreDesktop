@@ -56,11 +56,13 @@ An example SoundcoreDesktop application is also bundled with the standalone API 
 ![image](https://user-images.githubusercontent.com/55416314/148499360-63be8411-0aa7-4330-ba09-94bf445d2c80.png)
 ![image](https://user-images.githubusercontent.com/55416314/148499372-01b6d569-d92a-41ef-b58d-b8fa5f6cbf81.png)
 
+## Installation
 
-You will need to obtain your headphone's MAC Address. Most Bluetooth utilities, including those provided by your operating system, should allow you to find it easily.
-After that is done, you will need to execute the Main.py and click on the Settings button.
-It should open a new window with an input box. In that box, you will need to insert the address of your headset and then you can click Submit.
-You'll now be able to control your device from your desktop.
+- Download latest build (.zip Windows only currently) https://github.com/KillerBOSS2019/SoundcoreLifeAPI/releases
+- After downloading the zip file it requires you to unzip it
+- Then make sure that your headphone have connected to the mobile app before otherwise the desktop app wont work. After connecting headphone to mobile app and disconnect it.
+- Make sure you mobile device is disconnected from the headphone and then RUN the `SoundcoreDesktop.exe` in the SoundcoreDesktop folder
+- If you have any issues feel free make a issue on github! 
 
 Note that if the Soundcore Mobile Application is running and connected to your headphone, then the Desktop Application will **NOT** Work.
 The Soundcore Devices can only support **one** application controlling it at a time. Exiting out of the Mobile Application should solve the issue.
