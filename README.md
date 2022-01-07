@@ -52,9 +52,10 @@ Available EQPresets and AmbientSound settings :
 ## The SoundcoreDesktop Application
 An example SoundcoreDesktop application is also bundled with the standalone API in the `SoundcoreDesktop` folder.
 
-![image](https://user-images.githubusercontent.com/55416314/126011831-b77996ae-1cb2-49b3-8cec-a9e26c19a4d4.png)
-![image](https://user-images.githubusercontent.com/55416314/126011862-49f62487-d899-449f-9fc9-383d0d700d7c.png)
-![image](https://user-images.githubusercontent.com/55416314/126011892-dc50b16c-1f12-4722-8c99-f7e0a35cd49a.png)
+![image](https://user-images.githubusercontent.com/55416314/148499329-8e446bea-6c93-4d70-977b-ff7128e1f6c3.png)
+![image](https://user-images.githubusercontent.com/55416314/148499360-63be8411-0aa7-4330-ba09-94bf445d2c80.png)
+![image](https://user-images.githubusercontent.com/55416314/148499372-01b6d569-d92a-41ef-b58d-b8fa5f6cbf81.png)
+
 
 You will need to obtain your headphone's MAC Address. Most Bluetooth utilities, including those provided by your operating system, should allow you to find it easily.
 After that is done, you will need to execute the Main.py and click on the Settings button.
