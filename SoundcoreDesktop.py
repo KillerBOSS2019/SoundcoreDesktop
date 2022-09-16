@@ -130,7 +130,7 @@ def removeImg():
 text = {
     "ANC Outdoor": "Reduce ambient sound on-the-go for quieter city spaces",
     "ANC Trans": "Targets low-end frequencies like engine and road noise for serene journeys and commutes.",
-    "ANC INDOOR": "Eliminate voices and mid-frequency noise from coffee shaps and other inside spaces."
+    "ANC INDOOR": "Eliminate voices and mid-frequency noise from coffee shops and other inside spaces."
 }
 
 def forgetANCWegets():
@@ -170,7 +170,7 @@ def ANC():
             label.configure(image=image)
             Headphone.ANC("ANC Transport")
         elif data == 2:
-            Modeinfo.configure(text="Eliminate voices and mid-frequency noise from\n coffee shaps and other inside spaces.")
+            Modeinfo.configure(text="Eliminate voices and mid-frequency noise from\n coffee shops and other inside spaces.")
             image = tkinter.PhotoImage(file="Images//ANC//a3951_img_indoor.png")
             image = image.subsample(3,3)
             label.configure(image=image)
