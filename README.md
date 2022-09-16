@@ -4,7 +4,7 @@
 This is an **unofficial** API for the Anker SoundCore Life Headphones. I am not partnered with Soundcore or Anker in any way.
 
 ## Supported Devices
-The Anker Soundcore Life Q30 is the only device I currently own, making me only able to test this one. However, other devices such as the Q35 should still work properly despite this. If not, feel free to report an Issue or send a Pull Request.
+The Anker Soundcore Life Q30 is the only device I currently own, making me only able to test this one. However, other devices such as the Q35 and A2 should still work properly despite this. If not, feel free to report an Issue or send a Pull Request.
 
 ## Requirements
 - Python 3 (both the API and the application)
